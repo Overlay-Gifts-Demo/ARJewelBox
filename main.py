@@ -93,7 +93,7 @@ def save_picture(curr_frame):
 if __name__ == "__main__":
     # Set window icon during .exe execution
     MY_APP_ID = "asutosh.arjbx.v0.0.1"  # arbitrary string
-    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(MY_APP_ID)
+    # ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(MY_APP_ID)
 
     # Get the source from settings configuration file
     # print(loader.get_source(VID_SOURCE))
